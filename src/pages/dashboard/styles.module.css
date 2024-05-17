@@ -1,0 +1,63 @@
+.dashboardContainer {
+  margin: 30px auto;
+  max-width: 1200px;
+  padding: 16px;
+  place-items: center;
+
+}
+
+.dashboardContainerHeader {
+  display: flex;
+  place-items: center;
+  justify-content: space-between;
+}
+
+.dashboardContainerHeader h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.dashboardContainerInput {
+  display: flex;
+  gap: 8px;
+  place-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboardContainerInput input {
+  width: 200px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #aafc;
+  caret-color: #aafc;
+}
+
+.dashboardContainerInput ::placeholder {
+  color: azure;
+  padding: 4px;
+}
+
+.dashboardContainerCard {
+  margin: 0 auto;
+  font-size: 1.5rem;
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  margin-top: 12px;
+  border: 0.5px solid #aaff;
+  border-radius: 4px;
+}
+
+.dashboardContainerCard:hover {
+  cursor: pointer;
+  background-color: #aafc;
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  margin-top: 12px;
+  border: 1px solid #aaff;
+  border-radius: 4px;
+}

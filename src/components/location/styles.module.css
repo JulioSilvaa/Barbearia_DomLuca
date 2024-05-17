@@ -1,0 +1,16 @@
+.container_map {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+}
+
+.container_map h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.container_map iframe {
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+}
